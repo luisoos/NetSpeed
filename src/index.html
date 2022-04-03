@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NetSpeed Dashboard</title>
+    <link rel="stylesheet" href="assets/libraries/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/fonts.css">
+</head>
+<body>
+    <div class="main">
+        <h1 class="title">🚀 Dashboard</h1>
+
+        <div class="row">
+
+            <div class="col-lg">
+                <div class="container last-test">
+                    <p>Last speedtest:</p>
+                    <div id="lastTest"></div>
+                </div>
+            </div>
+
+            <div class="col-lg">
+                <div class="container average-speed">
+                    <p>Average Speed:</p>
+                    <div id="averageSpeed"></div>
+                </div>
+            </div>
+            
+            <div class="col-lg">
+                <div class="container see-all-data">
+                    <p class="link-to-list"><a href="assets/pages/fulldata.html" alt="Link to page with all data"><img src="assets/icons/arrow-bar-right.svg"> View all data</a></p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    <script src="assets/js/lastTest.js"></script>
+    <script src="assets/js/average.js"></script>
+</body>
+</html>

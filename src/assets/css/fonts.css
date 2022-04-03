@@ -1,0 +1,11 @@
+/* Importing fonts */
+
+@font-face {
+    font-family: SF Pro Display Heavy;
+    src: url(../fonts/SFPro_Display_Heavy.ttf);
+}
+
+@font-face {
+    font-family: SF Pro Display;
+    src: url(../fonts/SFPro_Display_Regular.ttf);
+}
