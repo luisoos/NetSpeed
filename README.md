@@ -1,5 +1,5 @@
 # Net-Speed
-Official Net-Speed Source Code.
+Analysing your Network Speed was never this easy. — NetSpeed rund speed-tests in your server and gives you all kind of information in a local webpage. 
 
 # Getting started
 ## Installing Node.js
