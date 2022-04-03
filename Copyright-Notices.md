@@ -1,8 +1,8 @@
+<a href="https://github.com/Net-Speed/Net-Speed/">&larr; Back to the main page</a>
 # Copyright Notices
 Here are all copyright notices and acknowledgments for used libraries and packages.
 
-[Packages](#packages)
-[Libraries](#libraries)
+<br>
 
 # Packages
 ## fast-speedtest-api
