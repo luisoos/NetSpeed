@@ -3,3 +3,4 @@ Analysing your Network Speed was never this easy. — NetSpeed rund speed-tests 
 
 # 📌 Index
 - [📂 Documentation](https://github.com/luisoos/NetSpeed/)
+- [🤝 Copyright Notices](https://github.com/luisoos/NetSpeed/blob/main/Copyright-Notices.md)
