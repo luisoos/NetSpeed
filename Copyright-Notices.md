@@ -44,17 +44,22 @@ Here are all copyright notices and acknowledgments for used libraries and packag
 # Libraries
 ## Bootstrap (src/assets/libraries)
 The used library is **Bootstrap v5.1.3** (getbootstrap.com).
-It is licensed under the **MIT license** (https://github.com/twbs/bootstrap/blob/main/LICENSE).
-GitHub: https://github.com/twbs/bootstrap
-
-**Copyright notice:**
-Copyright (c) 2011-2022 Twitter, Inc.
-Copyright (c) 2011-2022 The Bootstrap Authors
+**License:** MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE).
+**GitHub:** https://github.com/twbs/bootstrap
+**Copyright:**
+- Copyright (c) 2011-2022 Twitter, Inc.
+- Copyright (c) 2011-2022 The Bootstrap Authors
 
 ## Bootstrap Icons (src/assets/icons)
 All the used icons in this folder are **Bootstrap icons** (icons.getbootstrap.com).
-They are licensed under the **MIT license** (https://github.com/twbs/icons/blob/main/LICENSE.md).
-GitHub: https://github.com/twbs/icons
+**License:** MIT (https://github.com/twbs/icons/blob/main/LICENSE.md).
+**GitHub:** https://github.com/twbs/icons
+**Copyright:**
+- Copyright (c) 2019-2021 The Bootstrap Authors
 
-**Copyright notice:**
-Copyright (c) 2019-2021 The Bootstrap Authors
+## Chart.js
+The used library is **Chart.js v3.7.1** (https://www.chartjs.org/).
+**License:** MIT (https://github.com/chartjs/Chart.js/blob/master/LICENSE.md)
+**GitHub:** https://github.com/chartjs/Chart.js
+**Copyright:**
+- Copyright (c) 2014-2022 Chart.js Contributors
