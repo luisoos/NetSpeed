@@ -41,7 +41,7 @@ setTimeout(()=>{
       
       var speed = Math.floor(s);
 
-      var date = day.getDate()+'/'+(day.getMonth()+1)+'/'+day.getFullYear()+', '+day.getHours()+':'+day.getMinutes();
+      var date = day.getDate()+'/'+(day.getMonth()+1)+', '+day.getHours()+':'+day.getMinutes();
     
       var obj = {
         date: date,
