@@ -6,6 +6,7 @@ Analyzing your Network Speed was never this easy. — NetSpeed runs speed-tests 
 - [🤝 Copyright Notices](https://github.com/luisoos/NetSpeed/blob/main/Copyright-Notices.md)
 - [🎬 Getting started](https://github.com/luisoos/NetSpeed#-getting-started)
 - [👀 Preview](https://github.com/luisoos/NetSpeed/#-preview)
+- [📑 Annotations](https://github.com/luisoos/NetSpeed/#-annotations)
 
 # 🎬 Getting started
 
