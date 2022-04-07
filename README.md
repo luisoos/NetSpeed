@@ -2,10 +2,10 @@
 Analyzing your Network Speed was never this easy. — NetSpeed runs speed-tests and gives you all kind of information in a local webpage. 
 
 # 📌 Index
-- [📂 Documentation](https://github.com/luisoos/NetSpeed/)
+- [📂 Documentation](https://github.com/luisoos/NetSpeed/wiki)
 - [🤝 Copyright Notices](https://github.com/luisoos/NetSpeed/blob/main/Copyright-Notices.md)
-- [🎬 Getting started](https://github.com/luisoos/NetSpeed/main/README.md#-getting-started)
-- [👀 Preview](https://github.com/luisoos/NetSpeed/main/README.md#-preview)
+- [🎬 Getting started](https://github.com/luisoos/NetSpeed#-getting-started)
+- [👀 Preview](https://github.com/luisoos/NetSpeed/#-preview)
 
 # 🎬 Getting started
 
