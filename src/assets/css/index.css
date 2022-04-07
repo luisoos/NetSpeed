@@ -86,7 +86,7 @@ p.description {
 
 div#lastTest h2::after, div#averageSpeed h2::after {
     content: "MB/s";
-    font-family: 'SF Pro Display', -apple-system, 'Helvetica Neue', BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'SF Pro Display', -apple-system, 'Helvetica Neue', BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica', sans-serif;
     font-size: 28px;
 }
 
@@ -97,7 +97,7 @@ div#lastTest h2::after, div#averageSpeed h2::after {
 }
 
 .see-all-data p {
-    font-family: 'SF Pro Display Heavy', -apple-system, 'Helvetica Neue', BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'SF Pro Display Heavy', -apple-system, 'Helvetica Neue', BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica', sans-serif;
 
     font-size: 28px;
 
@@ -146,4 +146,22 @@ div#lastTest h2::after, div#averageSpeed h2::after {
         margin-left: 25%;
         margin-right: 25%;
     }
+}
+
+.chart-div {
+    padding: 2.5%;
+
+    background: rgba( 100, 100, 100, 0.25 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.chart-div svg {
+    width: 100%;
+}
+
+span {
+    color: rgb(100, 100, 100);
 }
