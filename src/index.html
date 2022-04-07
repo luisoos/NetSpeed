@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NetSpeed Dashboard</title>
+
+    <!-- Importing CSS -->
     <link rel="stylesheet" href="assets/libraries/bootstrap.css">
     <link rel="stylesheet" href="assets/css/index.css">
     <link rel="stylesheet" href="assets/css/fonts.css">
@@ -31,14 +33,24 @@
             
             <div class="col-lg">
                 <div class="container see-all-data">
-                    <p class="link-to-list"><a href="assets/pages/fulldata.html" alt="Link to page with all data"><img src="assets/icons/arrow-bar-right.svg"> View all data</a></p>
+                    <p class="link-to-list"><a href="assets/pages/allData.html" alt="Link to page with all data"><img src="assets/icons/arrow-bar-right.svg"> View all data</a></p>
                 </div>
             </div>
             
         </div>
     </div>
+
+    <div class="chart-div">
+        <h2 class="chart-title">Graphical view</h2>
+        <p>All recorded data represented in one chart. <br> <span>Date format: Day/Month, Hour/Minute (24h)</span></p>
+        <canvas id="myChart" style="width: 100%; height: auto;"></canvas>
+    </div>
     
-    <script src="assets/js/lastTest.js"></script>
-    <script src="assets/js/average.js"></script>
+    <!-- Importing JS -->
+    <script type="text/javascript" src="assets/libraries/chart.js"></script>
+    <script type="text/javascript" src="assets/js/calcAverage.js"></script>
+    <script type="text/javascript" src="assets/js/chartGenerator.js"></script>
+    <script type="text/javascript" src="assets/js/lastTest.js"></script>
+    <script type="text/javascript" src="assets/js/refresh.js"></script>
 </body>
 </html>
