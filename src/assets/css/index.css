@@ -20,6 +20,7 @@ body, html {
 }
 
 
+/* Headlines */
 
 h1 {
     font-family: 'SF Pro Display Heavy', -apple-system, 'Helvetica Neue', BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -46,18 +47,28 @@ h2 {
     }
 }
 
-p.back {
-    margin-bottom: 50px;
+@media (max-width: 1001px) {
+	h1.title { 
+        text-align: center;
+    }
 }
 
-a.undertitle {
-    padding-bottom: 15px;
-}
+
+/* Text */
 
 p {
     font-size: 20px;
 }
 
+p.back {
+    margin-bottom: 50px;
+}
+
+p.description {
+    font-weight: bold;
+    text-decoration: underline;
+}
+	
 p a, p a:link, p a:visited {
     color: black;
 
@@ -68,10 +79,22 @@ p a:hover {
     color: rgb(40, 40, 40);
 }
 
-p.description {
-    font-weight: bold;
-    text-decoration: underline;
+a.undertitle {
+    padding-bottom: 15px;
 }
+
+@media (max-width: 992px) {
+	.container p, .container h2 { 
+        text-align: center;
+    }
+}
+
+span {
+    color: rgb(100, 100, 100);
+}
+
+
+/* Containers */
 
 .container {
     margin-bottom: 10px;
@@ -90,11 +113,8 @@ div#lastTest h2::after, div#averageSpeed h2::after {
     font-size: 28px;
 }
 
-@media (max-width: 1001px) {
-	h1.title { 
-        text-align: center;
-    }
-}
+
+/* Details */
 
 .see-all-data p {
     font-family: 'SF Pro Display Heavy', -apple-system, 'Helvetica Neue', BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica', sans-serif;
@@ -118,35 +138,16 @@ div#lastTest h2::after, div#averageSpeed h2::after {
     }
 }
 
-@media (max-width: 992px) {
-	.container p, .container h2 { 
-        text-align: center;
-    }
+.see-all-data {
+    background: rgba(113, 95, 141, 0.5);
 }
 
 .link-to-list {
     text-align: center;
 }
 
-.see-all-data {
-    background: rgba(113, 95, 141, 0.5);
-}
 
-
-
-@media (min-width: 2000px) {
-	.main { 
-        margin-left: 20%;
-        margin-right: 20%;
-    }
-}
-
-@media (min-width: 2500px) {
-	.main { 
-        margin-left: 25%;
-        margin-right: 25%;
-    }
-}
+/* Chart */
 
 .chart-div {
     padding: 2.5%;
@@ -162,6 +163,18 @@ div#lastTest h2::after, div#averageSpeed h2::after {
     width: 100%;
 }
 
-span {
-    color: rgb(100, 100, 100);
+/* Responsive Design */
+
+@media (min-width: 2000px) {
+	.main { 
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
+
+@media (min-width: 2500px) {
+	.main { 
+        margin-left: 25%;
+        margin-right: 25%;
+    }
 }
