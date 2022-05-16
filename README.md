@@ -68,7 +68,7 @@ You are now able to view the recorded data on [`http://localhost:8080/index.html
 # 📑 Annotations
 ## 🔌 Get your own speed test token
 Quick tutorial how to get your own speed test token, which is optional, since I provided mine in the source code.
-> Go to fast.com, open your browser DevTools, go on the Network tab and copy the token on the request URL that looks like `https://api.fast.com/netflix/speedtest?https=true&token=<the-token>&urlCount=5`. **You may be able to filter all requests - search for netflix there.**
+> Go to fast.com, open your browser DevTools, go on the Network tab and copy the token on the request URL that looks like `https://api.fast.com/netflix/speedtest?https=true&token=<the-token>&urlCount=5`. **You may be able to filter all requests - search `netflix` there.**
 
 With this token, you can change the string in `src/database.js` in line 22.
 
