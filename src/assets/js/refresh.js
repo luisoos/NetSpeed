@@ -2,5 +2,5 @@
 window.setInterval('refresh()', 30000); 	
 
 function refresh() {
-    window .location.reload();
+    window.location.reload();
 }
